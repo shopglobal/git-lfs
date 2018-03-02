@@ -7,6 +7,19 @@ To allow git-lfs to lend your credentials for protected repos, use the following
 In my case on Windows using gitbash I had to use:
 git config --global credential.helper wincred
 ```
+First run on a previously tracked repo. 
+```
+git lfs install
+```
+Since I could not make a push or a pull, I used the command ``` git reset --hard origin/master ``` or branch name..
+``` git lfs track "*.zip",
+git lfs track "*.mp4"
+```
+I newly added large files in my repository.
+```
+git add ., git commit -m "Git-LFS", git push.
+```
+
 
 
 
