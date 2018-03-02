@@ -20,6 +20,13 @@ Add, commit and push large files to repository.
 git add ., git commit -m "Git-LFS", git push.
 ```
 
+To pull the objects out of git lfs, after git pull origin master 
+```
+git lfs fetch
+git lfs checkout
+git lfs pull
+```
+
 
 
 
