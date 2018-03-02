@@ -1,4 +1,14 @@
 # Git Large File Storage
+WINDOWS ISSUE: 
+```
+To allow git-lfs to lend your credentials for protected repos, use the following command. 
+```
+
+In my case on Windows using gitbash I had to use:
+git config --global credential.helper wincred
+
+
+
 
 | Linux | macOS | Windows |
 | :---- | :------ | :---- |
