@@ -17,7 +17,9 @@ git lfs track "*.mp4"
 ```
 Add, commit and push large files to repository.
 ```
-git add ., git commit -m "Git-LFS", git push.
+git add .
+git commit -m "Git-LFS"
+git push
 ```
 
 To pull the objects out of git lfs, after git pull origin master 
